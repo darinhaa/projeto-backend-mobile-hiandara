@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<body>
+
+    <h1>Nossa equipe</h1>
+
+    <ul>
+        <li><a href="equipe.html">Saiba Aqui</a></li>
+      
+    </ul>
+
+</body>
+</html>

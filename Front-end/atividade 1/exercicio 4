@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Boas-vindas</title>
+</head>
+
+<body>
+    <h1>Escola Estadual Exemplo</h1>
+    <h2>Projeto: Organiza Escola</h2>
+
+    <p>
+        Seja bem-vindo ao sistema Organiza Escola! Aqui você poderá acompanhar
+        tarefas, avisos e informações importantes de maneira simples e rápida.
+    </p>
+
+</body>
+
+</html>

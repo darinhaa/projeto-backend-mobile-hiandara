@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato com a Coordenação</title>
+</head>
+<body>
+
+<h1>Contato com a Coordenação</h1>
+
+<form>
+    <label for="assunto">Assunto</label><br>
+    <input type="text" id="assunto" name="assunto"><br><br>
+
+    <label for="mensagem">Mensagem</label><br>
+    <textarea id="mensagem" name="mensagem" rows="5"></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

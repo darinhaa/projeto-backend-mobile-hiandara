@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Painel Principal</title>
+</head>
+
+<body>
+    <h1>Painel do Sistema</h1>
+
+    <section>
+        <h2>Avisos</h2>
+        <p>Visualize comunicados e informações importantes da escola.</p>
+    </section>
+
+    <section>
+        <h2>Tarefas</h2>
+        <p>Acompanhe atividades e prazos de entrega.</p>
+    </section>
+
+    <section>
+        <h2>Usuários</h2>
+        <p>Gerencie alunos, professores e administradores do sistema.</p>
+    </section>
+
+</body>
+
+</html>

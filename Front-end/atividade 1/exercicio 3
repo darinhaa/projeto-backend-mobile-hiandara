@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Funcionalidades</title>
+</head>
+
+<body>
+    <h1>Funcionalidades do Sistema</h1>
+
+    <ul>
+        <li>Cadastro de usuários</li>
+        <li>Gerenciamento de tarefas</li>
+        <li>Envio de avisos</li>
+        <li>Calendário escolar</li>
+        <li>Consulta de atividades</li>
+    </ul>
+
+</body>
+
+</html>

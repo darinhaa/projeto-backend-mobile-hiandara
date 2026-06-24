@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<body>
+
+    <h1>Projeto Organização Escolar</h1>
+
+    <ul>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="projeto.html">Projeto</a></li>
+    </ul>
+
+</body>
+</html>

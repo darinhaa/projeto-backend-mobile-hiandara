@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Tarefa</title>
+</head>
+<body>
+
+<h1>Cadastro de Tarefa</h1>
+
+<form>
+    <label for="titulo">Título</label><br>
+    <input type="text" id="titulo" name="titulo"><br><br>
+
+    <label for="descricao">Descrição</label><br>
+    <textarea id="descricao" name="descricao"></textarea><br><br>
+
+    <label for="prioridade">Prioridade</label><br>
+    <select id="prioridade" name="prioridade">
+        <option>Baixa</option>
+        <option>Média</option>
+        <option>Alta</option>
+    </select><br><br>
+
+    <button type="submit">Salvar Tarefa</button>
+</form>
+
+</body>
+</html>
