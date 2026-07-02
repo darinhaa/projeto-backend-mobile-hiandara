@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7 - JavaScript</title>
+</head>
+<body>
+
+    <h1>Atividade 7 - JavaScript e interação com a página</h1>
+
+    <!-- Exercício 1 -->
+    <h2>1. Mostrar mensagem</h2>
+    <button id="btnMensagem">Clique aqui</button>
+
+    <hr>
+
+    <!-- Exercício 2 -->
+    <h2>2. Lista de Tarefas</h2>
+    <input type="text" id="tarefa" placeholder="Digite uma tarefa">
+    <button id="btnTarefa">Adicionar</button>
+
+    <ul id="listaTarefas"></ul>
+
+    <hr>
+
+    <!-- Exercício 3 -->
+    <h2>3. Mostrar nome do aluno</h2>
+    <input type="text" id="aluno" placeholder="Digite o nome do aluno">
+    <button id="btnAluno">Mostrar Nome</button>
+
+    <p id="resultadoAluno"></p>
+
+    <hr>
+
+    <!-- Exercício 4 -->
+    <h2>4. Bloquear envio se estiver vazio</h2>
+
+    <input type="text" id="campoObrigatorio" placeholder="Digite alguma coisa">
+    <button id="btnEnviar">Enviar</button>
+
+    <hr>
+
+    <!-- Exercício 5 -->
+    <h2>5. Lista de Avisos</h2>
+
+    <input type="text" id="aviso" placeholder="Digite um aviso">
+    <button id="btnAviso">Adicionar Aviso</button>
+
+    <ul id="listaAvisos"></ul>
+
+<script>
+
+// Exercício 1
+const btnMensagem = document.querySelector("#btnMensagem");
+
+btnMensagem.addEventListener("click", () => {
+    alert("Olá! Você clicou no botão.");
+});
+
+// Exercício 2
+const tarefa = document.querySelector("#tarefa");
+const btnTarefa = document.querySelector("#btnTarefa");
+const listaTarefas = document.querySelector("#listaTarefas");
+
+btnTarefa.addEventListener("click", () => {
+
+    if (tarefa.value.trim() == "") {
+        alert("Digite uma tarefa.");
+        return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = tarefa.value;
+
+    listaTarefas.appendChild(item);
+
+    tarefa.value = "";
+});
+
+// Exercício 3
+const aluno = document.querySelector("#aluno");
+const btnAluno = document.querySelector("#btnAluno");
+const resultadoAluno = document.querySelector("#resultadoAluno");
+
+btnAluno.addEventListener("click", () => {
+
+    resultadoAluno.textContent = "Aluno: " + aluno.value;
+
+});
+
+// Exercício 4
+const campoObrigatorio = document.querySelector("#campoObrigatorio");
+const btnEnviar = document.querySelector("#btnEnviar");
+
+btnEnviar.addEventListener("click", () => {
+
+    if (campoObrigatorio.value.trim() == "") {
+        alert("O campo não pode estar vazio.");
+        return;
+    }
+
+    alert("Enviado com sucesso!");
+
+});
+
+// Exercício 5
+const aviso = document.querySelector("#aviso");
+const btnAviso = document.querySelector("#btnAviso");
+const listaAvisos = document.querySelector("#listaAvisos");
+
+btnAviso.addEventListener("click", () => {
+
+    if (aviso.value.trim() == "") {
+        alert("Digite um aviso.");
+        return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = aviso.value;
+
+    listaAvisos.appendChild(item);
+
+    aviso.value = "";
+});
+
+</script>
+
+</body>
+</html>
