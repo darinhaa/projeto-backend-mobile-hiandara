@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercico 5</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#ffffff;
+    margin:30px;
+}
+
+h1{
+    text-align:center;
+    color:#009dff;
+}
+
+h2{
+    color:#0056b3;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+    color:#151515;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Avisos da Escola!</h1>
+
+<h2>Prova</h2>
+<p>A prova de Matemática será realizada na próxima segunda-feira.</p>
+
+<h2>Reunião</h2>
+<p>Os responsáveis estão convidados para a reunião na sexta-feira às 19h.</p>
+
+<h2>Férias</h2>
+<p>O período de férias escolares começa no dia 15 de julho.</p>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 1</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#37b8c7;
+    margin:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    box-shadow:0 0 5px gray;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Avisos</h1>
+
+<div class="card">
+    <h2>Reunião de Pais</h2>
+    <p>Dia 20 às 19h.</p>
+</div>
+
+<div class="card">
+    <h2>Feira de Ciências</h2>
+    <p>Inscrições até sexta-feira.</p>
+</div>
+
+<div class="card">
+    <h2>Prova de Matemática</h2>
+    <p>Conteúdo: Equações.</p>
+</div>
+
+</body>
+</html>

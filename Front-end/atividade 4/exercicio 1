@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 1</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:rgb(121, 154, 220);
+    text-align:center;
+    padding:50px;
+}
+
+button{
+    background:#afc8f5;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Bem-vindo</h1>
+
+<p>Página Inicial notas.</p>
+
+<button>Veja sua nota aqui</button>
+
+</body>
+</html>

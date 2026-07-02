@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 4</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.menu{
+    width:220px;
+    background:#5ac1c5;
+    color:white;
+    padding:20px;
+}
+
+.conteudo{
+    flex:1;
+    background:#f4f4f4;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="menu">
+        <h2>Menu</h2>
+        <p>Início</p>
+        <p>Alunos</p>
+        <p>Notas</p>
+    </div>
+
+    <div class="conteudo">
+        <h1>Conteúdo Principal</h1>
+        <p>Esta área exibe as informações do sistema.</p>
+    </div>
+
+</div>
+
+</body>
+</html>

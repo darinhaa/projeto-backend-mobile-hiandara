@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 
-<html> <head> <title>Problema Escolhido</title> </head> <body> <h1>Problema Escolhido pelo Grupo</h1>
+<html>
 
-<h2>Falta de Organização</h2>
-<p>
-    Muitos alunos têm dificuldade em organizar suas tarefas e compromissos escolares.
-</p>
+<head>
+    <title>Problema Escolhido</title>
+</head>
 
-<h2>Comunicação Ineficiente</h2>
-<p>
-    Informações importantes nem sempre chegam a todos os alunos de forma rápida.
-</p>
+<body>
+    <h1>Problema Escolhido pelo Grupo</h1>
 
-<h2>Perda de Prazos</h2>
-<p>
-    A falta de lembretes e acompanhamento pode causar atrasos na entrega de atividades.
-</p>
+    <h2>Falta de Organização</h2>
+    <p>
+        Muitos alunos têm dificuldade em organizar suas tarefas e compromissos escolares.
+    </p>
 
-</body> </html>
+    <h2>Comunicação Ineficiente</h2>
+    <p>
+        Informações importantes nem sempre chegam a todos os alunos de forma rápida.
+    </p>
+
+    <h2>Perda de Prazos</h2>
+    <p>
+        A falta de lembretes e acompanhamento pode causar atrasos na entrega de atividades.
+    </p>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 5</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#4597ea;
+    padding:20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+</style>
+
+</head>
+<body>
+
+<h1>Avisos</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Aviso 1</h3>
+        <p>Entrega do trabalho na sexta-feira.</p>
+    </div>
+
+    <div class="card">
+        <h3>Aviso 2</h3>
+        <p>Reunião de pais às 19h.</p>
+    </div>
+
+    <div class="card">
+        <h3>Aviso 3</h3>
+        <p>Inscrições abertas para o curso.</p>
+    </div>
+
+    <div class="card">
+        <h3>Aviso 4</h3>
+        <p>Biblioteca fechada no feriado.</p>
+    </div>
+
+</div>
+
+</body>
+</html>

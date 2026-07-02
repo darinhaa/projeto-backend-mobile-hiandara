@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 4</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#10b1da;
+    margin:20px;
+}
+
+.card{
+    background:rgb(220, 247, 251);
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    box-shadow:0 0 5px gray;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Lista de Tarefas</h1>
+
+<div class="card">
+    <h2>Tarefa 1</h2>
+    <p>Fazer os exercícios de Matemática.</p>
+</div>
+
+<div class="card">
+    <h2>Tarefa 2</h2>
+    <p>Estudar História.</p>
+</div>
+
+<div class="card">
+    <h2>Tarefa 3</h2>
+    <p>Entregar o trabalho de Ciências.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 5</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#cde4eb;
+    margin:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    box-shadow:0 0 5px rgb(13, 126, 201);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td{
+    border:1px solid #0792ef;
+    padding:10px;
+}
+
+th{
+    background:#2b6cb0;
+    color:white;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Painel Escolar</h1>
+
+<div class="card">
+    <h2>Total de Alunos</h2>
+    <p>30 alunos.</p>
+</div>
+
+<div class="card">
+    <h2>Presenças Hoje</h2>
+    <p>28 presentes.</p>
+</div>
+
+<div class="card">
+    <h2>Avisos</h2>
+    <p>3 avisos cadastrados.</p>
+</div>
+
+<table>
+<tr>
+    <th>ID</th>
+    <th>Aviso</th>
+    <th>Categoria</th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td>Reunião de Pais</td>
+    <td>Geral</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>Feira de Ciências</td>
+    <td>Evento</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>Prova de Matemática</td>
+    <td>Avaliação</td>
+</tr>
+
+</table>
+
+</body>
+</html>

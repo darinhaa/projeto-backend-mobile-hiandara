@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 2</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#52c2de;
+}
+
+.caixa{
+    width:300px;
+    margin:60px auto;
+    border:2px solid #333;
+    padding:20px;
+    background:rgb(255, 255, 255);
+    box-shadow:5px 5px 10px rgb(1, 88, 250);
+}
+</style>
+
+</head>
+<body>
+
+<div class="caixa">
+    <h2>Caixa de Informações nota aluno</h2>
+    <p>Aluno nota 9.</p>
+</div>
+
+</body>
+</html>

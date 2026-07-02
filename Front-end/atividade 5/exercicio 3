@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 3</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0066cc;
+    color:white;
+    padding:15px 20px;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background:#0004fc;
+    color:rgb(250, 250, 250);
+    cursor:pointer;
+}
+
+button:hover{
+    background:#cdfbff;
+}
+</style>
+
+</head>
+<body>
+
+<div class="topo">
+    <h2>Sistema Escolar</h2>
+    <button>Sair</button>
+</div>
+
+</body>
+</html>

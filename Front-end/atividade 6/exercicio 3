@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 3</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:20px;
+}
+
+.botao{
+    background:#2b6cb0;
+    color:white;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:6px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Formulário</h1>
+
+<a href="#" class="botao">Abrir Formulário</a>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>exercicio 3</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#62b6d4;
+}
+
+.formulario{
+    width:350px;
+    margin:40px auto;
+    background:rgb(255, 255, 255);
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#038ba6;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="formulario">
+    <h2>Cadastro de Aluno</h2>
+
+    <input type="text" placeholder="Nome">
+
+    <input type="email" placeholder="E-mail">
+
+    <input type="number" placeholder="Idade">
+
+    <button>Cadastrar</button>
+</div>
+
+</body>
+</html>
