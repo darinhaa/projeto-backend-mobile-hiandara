@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Tarefas</title>
+</head>
+<body>
+
+<h1>Cadastro de Tarefa</h1>
+
+<input type="text" id="descricao" placeholder="Descrição da tarefa">
+<button id="salvar">Salvar</button>
+
+<p id="mensagem"></p>
+
+<script>
+
+document.querySelector("#salvar").addEventListener("click", async () => {
+
+    const resposta = await fetch("http://localhost:3000/tarefas", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+            descricao: document.querySelector("#descricao").value
+        })
+
+    });
+
+    const dados = await resposta.json();
+
+    document.querySelector("#mensagem").textContent = dados.mensagem;
+
+});
+
+</script>
+
+</body>
+</html>

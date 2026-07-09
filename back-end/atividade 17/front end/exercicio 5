@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Aviso</title>
+</head>
+<body>
+
+<h1>Cadastro de Aviso</h1>
+
+<input type="text" id="titulo" placeholder="Título do aviso">
+
+<button id="enviar">Enviar</button>
+
+<p id="resultado"></p>
+
+<script>
+
+const titulo = document.querySelector("#titulo");
+const resultado = document.querySelector("#resultado");
+
+document.querySelector("#enviar").addEventListener("click", async () => {
+
+    const dados = {
+        titulo: titulo.value
+    };
+
+    try {
+
+        const resposta = await fetch("http://localhost:3000/avisos", {
+
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify(dados)
+
+        });
+
+        const retorno = await resposta.json();
+
+        resultado.textContent = retorno.mensagem;
+
+    } catch (erro) {
+
+        resultado.textContent = "Erro ao conectar com o servidor.";
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>

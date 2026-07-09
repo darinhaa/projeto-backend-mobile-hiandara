@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Usuário</title>
+</head>
+<body>
+
+<h1>Cadastro de Usuário</h1>
+
+<input type="text" id="nome" placeholder="Nome">
+<button id="enviar">Cadastrar</button>
+
+<p id="resultado"></p>
+
+<script>
+const nome = document.querySelector("#nome");
+const botao = document.querySelector("#enviar");
+const resultado = document.querySelector("#resultado");
+
+botao.addEventListener("click", async () => {
+    const resposta = await fetch("http://localhost:3000/usuarios", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            nome: nome.value
+        })
+    });
+
+    const dados = await resposta.json();
+    resultado.textContent = dados.mensagem;
+});
+</script>
+
+</body>
+</html>

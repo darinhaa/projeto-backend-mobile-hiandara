@@ -1,0 +1,4 @@
+4. Onde ficaria a tela de login e o servidor
+
+Tela de login: frontend/index.html (ou frontend/login.html).
+Servidor: servidor/app.js.

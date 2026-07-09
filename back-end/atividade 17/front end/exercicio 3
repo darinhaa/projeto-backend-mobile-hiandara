@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Lista de Avisos</title>
+</head>
+<body>
+
+<h1>Avisos</h1>
+
+<button id="listar">Listar Avisos</button>
+
+<ul id="lista"></ul>
+
+<script>
+
+document.querySelector("#listar").addEventListener("click", async () => {
+
+    const resposta = await fetch("http://localhost:3000/avisos");
+
+    const avisos = await resposta.json();
+
+    const lista = document.querySelector("#lista");
+
+    lista.innerHTML = "";
+
+    avisos.forEach(aviso => {
+        lista.innerHTML += `<li>${aviso.titulo}</li>`;
+    });
+
+});
+
+</script>
+
+</body>
+</html>

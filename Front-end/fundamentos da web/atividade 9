@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios de 1 a 5 at 9</title>
+</head>
+
+<body>
+
+    <!-- Exercício 1 -->
+    <h1>JSON com os dados de um aviso escolar</h1>
+    {
+    "titulo": "Reunião de Pais",
+    "data": "10/07/2026",
+    "local": "Auditório"
+    }
+
+
+    <!-- Exercício 2 -->
+    <h2>. JSON com os dados de uma tarefa</h2>
+    {
+    "titulo": "Trabalho de História",
+    "disciplina": "História",
+    "prazo": "15/07/2026"
+    }
+
+    <!-- Exercício 4 -->
+    <h3>.Pedido e resposta de um login</h3>
+    # Pedido (Request)
+    POST /login HTTP/1.1
+    Host: localhost:3000
+    Content-Type: application/json
+
+    {
+    "email": "ana@escola.com",
+    "senha": "123456"
+    }
+
+    # Resposta (Response)
+    HTTP/1.1 200 OK
+    Content-Type: application/json
+
+    {
+    "mensagem": "Login realizado com sucesso"
+    }
+
+    <!-- Exercício 4 -->
+    <h4>.Por que o servidor usa o código 201 ao criar um registro?</h4>
+    <p>Porque o código 201 indica que um novo registro foi criado com sucesso no servidor.</p>
+
+    <!-- Exercício 5 -->
+    <h5>Passo a passo do cadastro de usuário</h5>
+
+    <ul>
+        <li> O usuário preenche o formulário com nome, e-mail e senha. </li>
+        <li> O navegador envia os dados em formato JSON usando o método post </li>
+        <li> O servidor recebe e processa as informações. </li>
+        <li> O servidor salva o novo usuário no sistema.. </li>
+        <li> O servidor responde com o código 201 Created, informando que o cadastro foi realizado com sucesso. </li>
+
+    </ul>
+
+
+</body>
+
+</html>

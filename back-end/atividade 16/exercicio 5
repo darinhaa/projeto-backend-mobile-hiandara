@@ -1,0 +1,19 @@
+5. Projeto organizado com front-end, back-end e documentação
+
+projeto/
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── estilo.css
+│   └── script.js
+├── servidor/
+│   ├── rotas/
+│   │   ├── login.js
+│   │   └── avisos.js
+│   ├── dados/
+│   │   ├── usuarios.js
+│   │   └── avisos.js
+│   └── app.js
+├── documentacao/
+│   └── manual.md
+└── README.md

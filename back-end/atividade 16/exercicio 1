@@ -1,0 +1,14 @@
+ 1. Estrutura de pastas para um sistema de avisos 
+
+sistema-avisos/
+├── servidor/
+│   ├── rotas/
+│   │   └── avisos.js
+│   ├── dados/
+│   │   └── avisos.js
+│   └── app.js
+├── frontend/
+│   ├── index.html
+│   ├── estilo.css
+│   └── script.js
+└── README.md

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Teste de Conexão</title>
+</head>
+<body>
+
+<button id="testar">Testar Servidor</button>
+
+<p id="resultado"></p>
+
+<script>
+
+document.querySelector("#testar").addEventListener("click", async () => {
+
+    try {
+
+        const resposta = await fetch("http://localhost:3000/avisos");
+
+        await resposta.json();
+
+        document.querySelector("#resultado").textContent =
+        "Servidor conectado com sucesso.";
+
+    } catch (erro) {
+
+        document.querySelector("#resultado").textContent =
+        "Erro ao conectar com o servidor.";
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>

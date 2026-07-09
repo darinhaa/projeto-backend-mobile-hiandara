@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>exercicios de 1 a 5 at 8</title>
+</head>
+
+<body>
+      <!-- Exercício 1-->
+    <h1>Dois exemplos de uso do método GET:</h1>
+    <ul>
+        <li>Buscar a lista de avisos da escola.
+            </li>
+        <li>Visualizar a lista de alunos cadastrados.</li>
+    </ul>
+
+  <!-- Exercício 2 -->
+    <h1>Dois exemplos de uso do método POST:</h1>
+    <ul>
+        <li>Cadastrar um novo aviso escolar.
+            </li>
+        <li>Cadastrar um novo aluno.</li>
+    </ul>
+
+     <!-- Exercício 3 -->
+     <h1>O que significa o código 404:</h1>
+     <ul>
+         <li>Significa que a página ou recurso solicitado não foi encontrado no servidor.
+             </li>
+     </ul>
+
+      <!-- Exercício 4 -->
+      <h1>O que acontece quando o servidor responde com 201:</h1>
+      <ul>
+          <li> Significa que o recurso foi criado com sucesso.
+              </li>
+      </ul>
+
+       <!-- Exercício 5 -->
+       <h1>Pedido e resposta HTTP para cadastrar um aviso escolar:</h1>
+      
+       # Pedido (Request)
+       POST /avisos HTTP/1.1
+       Host: localhost:3000
+       Content-Type: application/json
+       
+       {
+         "titulo": "Reunião de Pais"
+       }
+       
+       # Resposta (Response)
+       HTTP/1.1 201 Created
+       Content-Type: application/json
+       
+       {
+         "mensagem": "Aviso cadastrado com sucesso"
+       }
+ 
+
+    
+</body>
+
+</html>

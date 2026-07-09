@@ -1,0 +1,5 @@
+2. Separação dos arquivos de front-end
+
+HTML: frontend/index.html
+CSS: frontend/estilo.css
+JavaScript: frontend/script.js
